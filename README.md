@@ -19,17 +19,17 @@ This property specifies the initial size of a flex item before any growing or sh
 Approach:
 
 -> Planning Structure
-Header: Navigation or branding area.
-Main Section: Content cards organized in a flexible layout.
-Footer: Links or additional info.
--> Applying Flexbox
-Set display: flex on containers to activate Flexbox.
-Use flex-direction for layout flow (row or column).
-Add flex-wrap: wrap to allow items to shift on small screens.
-Use justify-content and align-items for alignment and spacing.
-Responsive Design
-Add media queries to adjust layout for smaller devices.
-Stack cards vertically or reduce padding/margin when screen width shrinks.
+  Header: Navigation or branding area.
+  Main Section: Content cards organized in a flexible layout.
+  Footer: Links or additional info.
+  -> Applying Flexbox
+  Set display: flex on containers to activate Flexbox.
+  Use flex-direction for layout flow (row or column).
+  Add flex-wrap: wrap to allow items to shift on small screens.
+  Use justify-content and align-items for alignment and spacing.
+  Responsive Design
+  Add media queries to adjust layout for smaller devices.
+  Stack cards vertically or reduce padding/margin when screen width shrinks.
 
 
 
