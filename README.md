@@ -17,8 +17,7 @@ This property specifies the initial size of a flex item before any growing or sh
 
 6. To build a responsive webpage using Flexbox 
 Approach:
-
--> Planning Structure
+  -> Planning Structure
   Header: Navigation or branding area.
   Main Section: Content cards organized in a flexible layout.
   Footer: Links or additional info.
