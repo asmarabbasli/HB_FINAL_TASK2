@@ -1,0 +1,51 @@
+<body>
+  <header>
+    <h1>Welcome</h1>
+  </header>
+
+  <section class="cards-container">
+    <div class="card">Card 1</div>
+    <div class="card">Card 2</div>
+    <div class="card">Card 3</div>
+  </section>
+
+  <footer>
+    <p>© 2025</p>
+  </footer>
+</body>
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.card {
+  background: #eee;
+  padding: 1rem;
+  flex: 1 1 300px; /* grows, shrinks, min-width */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Responsive tweaks */
+@media (max-width: 600px) {
+  .cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

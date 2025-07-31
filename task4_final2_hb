@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <nav>
+      <div class="logo">MyLogo</div>
+         <div class="nav-items">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+         </div>
+    </nav>
+</body>
+</html>
+
+
+
+ nav {
+    display: flex;                 
+    justify-content: space-between; 
+    align-items: center;           
+    background-color: #333;
+    padding: 10px 20px;
+    color: white;
+  }
+
+.nav-items {
+    display: flex;                
+    gap: 20px;                    
+  }
+
+
+.nav-items a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+  }
+
+.nav-items a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
