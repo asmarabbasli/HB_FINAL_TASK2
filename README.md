@@ -1,7 +1,4 @@
 # HB_FINAL_TASK2
-# HB_FINAL_TASK2
-
-# HB_FINAL_TASK2
 1. CSS is a layout model for dynamically arranging elements in a container. float and inline-block are old and require a lot of code, but using flexbox allows the user to arrange, distribute, and center elements together in a convenient way.
 
 2. justify-content: used for alignment along the main axis. align-item: used for alignment along the border axis. align-self: used for right alignment for individual flex items.
